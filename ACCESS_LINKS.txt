@@ -1,0 +1,51 @@
+🚀 COLLABORATIVE DOCUMENT ENGINE - ACCESS INFORMATION
+=====================================================
+
+✅ SERVERS ARE RUNNING!
+
+📱 ACCESS FROM THIS PC:
+   Frontend: http://localhost:3000
+   Backend:  http://localhost:5000
+
+🌐 ACCESS FROM OTHER PCs ON YOUR NETWORK:
+   Frontend: http://10.20.18.160:3000
+   Backend:  http://10.20.18.160:5000
+
+📋 INSTRUCTIONS FOR OTHER DEVICES:
+   1. Make sure they are on the same network
+   2. Open a browser and go to: http://10.20.18.160:3000
+   3. Create an account or login
+   4. Start collaborating!
+
+🔥 FIREWALL SETTINGS:
+   If other devices can't connect, you may need to:
+   - Allow ports 3000 and 5000 through Windows Firewall
+   - Run these commands in PowerShell as Administrator:
+     
+     New-NetFirewallRule -DisplayName "React Dev Server" -Direction Inbound -LocalPort 3000 -Protocol TCP -Action Allow
+     New-NetFirewallRule -DisplayName "Node Backend Server" -Direction Inbound -LocalPort 5000 -Protocol TCP -Action Allow
+
+📊 SERVER STATUS:
+   ✓ MongoDB: Running
+   ✓ Backend Server: Running on port 5000
+   ✓ Frontend Client: Running on port 3000
+   ✓ Network IP: 10.20.18.160
+
+🛑 TO STOP SERVERS:
+   - Use Kiro's process management to stop the running terminals
+   - Or press Ctrl+C in each terminal window
+
+💡 FEATURES AVAILABLE:
+   - Real-time collaborative editing
+   - Live chat within documents
+   - Comments and annotations
+   - Version history and snapshots
+   - Document sharing with roles (owner/editor/viewer)
+   - Public share links
+   - Dark mode
+   - Export (TXT, HTML, JSON)
+   - Templates
+   - Typing indicators
+   - Document lock mode
+
+Created: $(Get-Date)
